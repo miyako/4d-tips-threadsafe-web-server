@@ -9,6 +9,8 @@ original blog post: https://blog.4d.com/web-server-in-preemptive-mode/
 ## modifications
 
 * support interpreted mode (processing code is moved to compiled component)
+
+<img src="https://github.com/user-attachments/assets/8ae81295-db5d-43b5-b253-94439dae67e7" width=600 height=auto />
  
 the original HDI was using an undocumented feature, where "use preëmptive web process" in user settings would override that of structure settings.  
 

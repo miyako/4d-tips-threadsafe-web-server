@@ -11,7 +11,7 @@ original blog post: https://blog.4d.com/web-server-in-preemptive-mode/
 * support interpreted mode (processing code is moved to compiled component)
 * [english](https://github.com/miyako/4d-tips-threadsafe-web-server/tree/english) branch for delocalised version
 
-<img src="https://github.com/user-attachments/assets/96b9da8e-90f4-4999-b10b-eafcab5d57ee" width=600 height=auto />
+<img src="https://github.com/user-attachments/assets/8ae81295-db5d-43b5-b253-94439dae67e7" width=600 height=auto />
  
 the original HDI was using an undocumented feature, where "use preëmptive web process" in user settings would override that of structure settings.  
 

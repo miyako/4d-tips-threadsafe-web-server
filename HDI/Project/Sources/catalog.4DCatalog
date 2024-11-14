@@ -5,7 +5,6 @@
 	<table name="Continent" uuid="1CEA4571DFFE427C9FAB059FAED8320F" id="2" prevent_journaling="true">
 		<field name="ID" uuid="FD37D469843E439EA5DB9CDF15FDC0DD" type="4" id="1"/>
 		<field name="Name" uuid="6A883371799F4E2F9CF6E7598C0DBA3D" type="10" id="2"/>
-		<table_extra />
 	</table>
 	<table name="SAMPLES" uuid="373049FBC27B4679BB600FC556A05850" id="3">
 		<field name="ID" uuid="A6E58BB01FF1407482262079B5A1922D" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
@@ -13,7 +12,6 @@
 		<field name="Text" uuid="4C4CE189E738499B84F53F34B61CF199" type="10" never_null="true" id="3"/>
 		<field name="SampleSort" uuid="DF812DB0BB6B4CCB83F420E40DA14116" type="4" never_null="true" id="4"/>
 		<primary_key field_name="ID" field_uuid="A6E58BB01FF1407482262079B5A1922D"/>
-		<table_extra />
 	</table>
 	<table name="Country" uuid="DB478CB1F9F44AA6B8A3F90149A3ED13" id="4" prevent_journaling="true">
 		<field name="ID" uuid="867E381B195D412EBEB7CFC0495EF86C" type="4" id="1"/>
@@ -26,7 +24,6 @@
 		<field name="UrbanPop" uuid="A9D7565D0D4C4078B42655F6D19C4A4D" type="6" id="8"/>
 		<field name="IDContinent" uuid="E6AB3794B8A74E67A4D055CD8BF326C9" type="4" id="9"/>
 		<field name="Capital" uuid="940CC09DE94C4A82BFC619E4CCED12EE" type="10" id="10"/>
-		<table_extra />
 	</table>
 	<relation uuid="B4C5E4BEB36F49EDA341C998799CFEDC" name_Nto1="Link_1" name_1toN="Link_1_return" auto_load_1toN="true" state="1">
 		<related_field kind="source">

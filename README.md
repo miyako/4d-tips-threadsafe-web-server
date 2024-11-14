@@ -5,3 +5,28 @@
 replica of 4D v16 demo database
 
 original blog post: https://blog.4d.com/web-server-in-preemptive-mode/
+
+## modifications
+
+* support interpreted mode (processing code is moved to compiled component)
+
+<img src="https://github.com/user-attachments/assets/8ae81295-db5d-43b5-b253-94439dae67e7" width=600 height=auto />
+ 
+the original HDI was using an undocumented feature, where "use preëmptive web process" in user settings would override that of structure settings.  
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<preferences stamp="4">
+	<com.4d>
+		  <web>
+			  <standalone_server>
+				<configuration session_mode="2"/>
+				<options>
+				      <web_processes preemptive="true"/>
+				</options>
+			</standalone_server>
+		</web>
+	</com.4d>
+</preferences>
+```
+in the current version, the strategy does not work.

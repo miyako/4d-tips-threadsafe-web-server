@@ -6,6 +6,10 @@ replica of 4D v16 demo database
 
 original blog post: https://blog.4d.com/web-server-in-preemptive-mode/
 
+## modifications
+
+* support interpreted mode (processing code is moved to compiled component)
+ 
 the original HDI was using an undocumented feature, where "use preëmptive web process" in user settings would override that of structure settings.  
 
 ```xml

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
+	<com.4d>
+		<web>
+			<standalone_server>
+				<configuration reuse_context="false" session_mode="2"/>
+				<options>
+					<web_processes preemptive="false"/>
+				</options>
+			</standalone_server>
+		</web>
+		<compiler>
+			<typage default_for_button="2" default_for_numeric="1"/>
+			<options target="all"/>
+		</compiler>
+		<general component_classStore_name="C"/>
+	</com.4d>
+</preferences>
